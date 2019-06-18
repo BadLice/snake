@@ -7,7 +7,7 @@ class Player
     this.toGrow = false;
     this.food = new Food();
     this.timex = millis();
-    this.lease = 0.2;
+    this.lease = 0.17;
     this.dir = 0;
     this.canDir = true;
     this.start = new Pos(floor(width / 2 / R), floor(height / 2 / R));
